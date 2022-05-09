@@ -17,7 +17,7 @@ import {
         <Title>
           Snake <Badge>2022</Badge>
         </Title>
-        <P>Simple juego de la serpiente con efectos de css modernos</P>
+        <P>Simple snake game with modern css effects</P>
         <List ml={4} my={4}>
         <ListItem>
             <Meta>Game</Meta>
