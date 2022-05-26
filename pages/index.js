@@ -66,7 +66,7 @@ const Home = () => (
         </Heading>
         <Paragraph>      
         Intento de desarrollador y estudiante de primer año de CFGM,
-        aunque en mi tiempo libre me puedes encontrar en {' '}
+        aunque en mi tiempo libre puedes encontrarme en {' '}
         <Link href="https://playvalorant.com/es-es/" target="_blank">
             Valorant
           </Link>
@@ -88,7 +88,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
         <BioYear>2020</BioYear>
-        Después de varios intentos, lancé un proyecto de bot de discord llamado {' '}
+        Después de varios intentos, lancé un proyecto de bot de Discord llamado {' '}
         <Link href="/works/raphtalia" target="_blank">
             Raphtalia
           </Link>

@@ -21,10 +21,10 @@ import {
         <List ml={4} my={4}>
         <ListItem>
             <Meta>Game</Meta>
-            <span>JS, HTML & CSS</span>
             <Link href="https://snake.derkyu.space" target="_blank">
               Snake <ExternalLinkIcon mx="2px" />
             </Link>
+            <span>JS, HTML & CSS</span>
           </ListItem>
         </List>
         <SimpleGrid columns={2} gap={2}>

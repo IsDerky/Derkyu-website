@@ -16,7 +16,7 @@ const Works = () => (
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
           <WorkGridItem id="raphtalia" title="Raphtalia" thumbnail={thumbRaph}>
-          Bot de discord multifuncional actualmente descontinuado
+          Bot de Discord multifuncional actualmente descontinuado
           </WorkGridItem>
         </Section>
         <Section>

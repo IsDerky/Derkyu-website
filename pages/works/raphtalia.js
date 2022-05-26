@@ -11,7 +11,7 @@ const Work = () => (
         Raphtalia <Badge>2020</Badge>
       </Title>
       <P> 
-      Bot de discord multifuncional actualmente descontinuado
+      Bot de Discord multifuncional actualmente descontinuado
       </P>
       <List ml={4} my={4}>
         <ListItem>
