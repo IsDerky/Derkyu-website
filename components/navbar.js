@@ -98,10 +98,10 @@ const Navbar = props => {
                 </NextLink>
               <NextLink href="/contact" passHref>
                   <MenuItem as={Link}>Contact</MenuItem>
+                </NextLink>
                 <MenuItem
                   as={Link}
                   href="https://github.com/isderky/derkyu-website">
-
                 </NextLink>
                   View Source
                 </MenuItem>
