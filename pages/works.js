@@ -16,12 +16,12 @@ const Works = () => (
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
           <WorkGridItem id="raphtalia" title="Raphtalia" thumbnail={thumbRaph}>
-          Multi-functional discord bot currently discontinued
+          Bot de discord multifuncional actualmente descontinuado
           </WorkGridItem>
         </Section>
         <Section>
           <WorkGridItem id="snake" title="Snake" thumbnail={thumbSnake}>
-          The classic snake game brought to modern style
+          El clásico juego de la serpiente llevado al estilo moderno.
           </WorkGridItem>
         </Section>
       </SimpleGrid>
@@ -41,7 +41,7 @@ const Works = () => (
             thumbnail={thumbMybot}
             title="Mybot"
           >
-           Support community based on portalmybot.com 
+           Comunidad de soporte basada en portalmybot.com
           </WorkGridItem>
         </Section>
       </SimpleGrid>

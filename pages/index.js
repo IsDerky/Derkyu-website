@@ -65,8 +65,8 @@ const Home = () => (
           What i&apos;m doing
         </Heading>
         <Paragraph>      
-        CFGM 1st year student and developer intent,
-        although in my free time you can find me in {' '}
+        Intento de desarrollador y estudiante de primer año de CFGM,
+        aunque en mi tiempo libre me puedes encontrar en {' '}
         <Link href="https://playvalorant.com/es-es/" target="_blank">
             Valorant
           </Link>
@@ -80,25 +80,24 @@ const Home = () => (
         </Heading>
         <BioSection>
         <BioYear>2005</BioYear>
-        Born in Barcelona, ​​Spain.
+        Nacido en Barcelona, ​​España.
         </BioSection>
         <BioSection>
         <BioYear>2019</BioYear>
-      
-I decided to start in the development world due to the time I was spending at home due to the pandemic
+        Decidí iniciarme en el mundo del desarrollo debido al tiempo que estaba pasando en casa por la pandemia
         </BioSection>
         <BioSection>
         <BioYear>2020</BioYear>
-        After several attempts I launched a discord bot project called {' '}
+        Después de varios intentos, lancé un proyecto de bot de discord llamado {' '}
         <Link href="/works/raphtalia" target="_blank">
             Raphtalia
           </Link>
-          , currently discontinued
+          , actualmente descontinuado.
         </BioSection>
         <BioSection>
         <BioYear>2022</BioYear>
-        Today I am studying a vocational training module
-        and proposing my next projects and formations
+        A día de hoy estoy estudiando un módulo de formación profesional
+        y planteando mis próximos proyectos y formaciones
           </BioSection>
       </Section>
 

@@ -17,10 +17,11 @@ import {
         <Title>
           Snake <Badge>2022</Badge>
         </Title>
-        <P>Simple snake game with modern css effects</P>
+        <P>Juego de serpiente simple con efectos css modernos</P>
         <List ml={4} my={4}>
         <ListItem>
             <Meta>Game</Meta>
+            <span>JS, HTML & CSS</span>
             <Link href="https://snake.derkyu.space" target="_blank">
               Snake <ExternalLinkIcon mx="2px" />
             </Link>

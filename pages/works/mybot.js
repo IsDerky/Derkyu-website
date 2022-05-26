@@ -16,7 +16,7 @@ const Work = () => (
       <Title>
         Portalmybot <Badge>2017</Badge>
       </Title>
-      <P>Learn and share new things about bot development.</P>
+      <P>Aprende y comparte cosas nuevas sobre el desarrollo de bots</P>
       <List ml={4} my={4}>
       <ListItem>
           <Meta>Website</Meta>
