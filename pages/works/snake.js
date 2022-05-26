@@ -24,8 +24,11 @@ import {
             <Link href="https://snake.derkyu.space" target="_blank">
               Snake <ExternalLinkIcon mx="2px" />
             </Link>
-            <span>JS, HTML & CSS</span>
           </ListItem>
+          <ListItem>
+          <Meta>Stack</Meta>
+          <span>JS, HTML & CSS</span>
+        </ListItem>
         </List>
         <SimpleGrid columns={2} gap={2}>
         <WorkImage src="/images/works/snake_01.png" alt="Snake" />
