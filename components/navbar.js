@@ -61,7 +61,7 @@ const Navbar = props => {
           <LinkItem href="/works" path={path}>
             Works
           </LinkItem>
-          <LinkItem href="/posts" path={path}>
+          <LinkItem href="mailto:contact@derkyu.space" path={path}>
             Contact
           </LinkItem>
           <LinkItem
