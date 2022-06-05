@@ -32,7 +32,7 @@ import {
         </List>
         <SimpleGrid columns={2} gap={2}>
         <WorkImage src="/images/works/snake_01.png" alt="Snake" />
-        <WorkImage src="https://spotify-github-profile.vercel.app/api/view?uid=darkqwew&cover_image=true&theme=compact" alt="Snake" />
+        <WorkImage src="/images/works/snake_02.png" alt="Snake" />
         </SimpleGrid>
       </Container>
     </Layout>
