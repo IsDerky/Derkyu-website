@@ -115,15 +115,15 @@ const Home = () => (
           <Link href="https://twitch.tv/isderky" target="_blank">
             Streams
           </Link>
-          <WorkImage
+          
+        </Paragraph>
+        <WorkImage
       src="https://spotify-github-profile.vercel.app/api/view?uid=darkqwew&cover_image=false&theme=natemoo-re&bar_color=53b14f&bar_color_cover=false"
       alt="Spotify"
       width="50px"
       height="10px"
       align="left"
     />
-
-        </Paragraph>
       </Section>
 
       <Section delay={0.3}>
