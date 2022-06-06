@@ -116,7 +116,7 @@ const Home = () => (
             Streams
           </Link>
           <WorkImage
-      src="https://spotify-github-profile.vercel.app/api/view?uid=darkqwew&cover_image=false&theme=default&bar_color=ffffff&bar_color_cover=false"
+      src="https://spotify-github-profile.vercel.app/api/view?uid=darkqwew&cover_image=true&theme=novatorem&bar_color=202023&bar_color_cover=falsea"
       alt="Spotify"
       layout="responsive"
       width="100px"
