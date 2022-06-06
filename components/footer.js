@@ -1,5 +1,5 @@
 import { Box } from '@chakra-ui/react'
-import { WorkImage } from '../../components/work'
+import { WorkImage } from './work'
 const Footer = () => {
   return (
     <Box align="center" opacity={0.4} fontSize="sm">
