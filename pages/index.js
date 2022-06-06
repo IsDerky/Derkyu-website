@@ -7,7 +7,7 @@ import {  IoLogoGithub } from 'react-icons/io5'
 import { FaTwitch } from "react-icons/fa";
 import { GiStarShuriken } from "react-icons/gi"
 import Image from 'next/image'
-import { WorkImage } from '../components/work'
+
 
 const ProfileImage = chakra(Image, {
   shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
