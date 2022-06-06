@@ -124,6 +124,7 @@ const Home = () => (
       layout="responsive"
       width="100"
       height="50"
+      borderRadius="20"
     />
     </>
     </Link>
