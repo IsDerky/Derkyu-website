@@ -8,8 +8,8 @@ const Footer = () => {
       <WorkImage
       src="https://spotify-github-profile.vercel.app/api/view?uid=darkqwew&cover_image=false&theme=natemoo-re&bar_color=53b14f&bar_color_cover=false"
       alt="Spotify"
-      width="150px"
-      height="100px"
+      width="50px"
+      height="10px"
       align="left"
     />
     
