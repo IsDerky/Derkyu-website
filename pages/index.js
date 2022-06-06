@@ -122,6 +122,7 @@ const Home = () => (
       layout="responsive"
       width="100"
       height="50"
+      href="https://spotify-github-profile.vercel.app/api/view?uid=darkqwew&redirect=true"
     />
       </Section>
 
