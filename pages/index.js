@@ -7,7 +7,7 @@ import {  IoLogoGithub } from 'react-icons/io5'
 import { FaTwitch } from "react-icons/fa";
 import { GiStarShuriken } from "react-icons/gi"
 import Image from 'next/image'
-
+import { WorkImage } from '../components/work'
 
 const ProfileImage = chakra(Image, {
   shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
@@ -118,7 +118,7 @@ const Home = () => (
         </Paragraph>
         <Link href="https://spotify-github-profile.vercel.app/api/view?uid=darkqwew&redirect=true">
        <>
-        <Image
+        <WorkImage
       src="https://spotify-github-profile.vercel.app/api/view?uid=darkqwew&cover_image=true&theme=novatorem&bar_color=202023&bar_color_cover=falsea"
       alt="Spotify"
       layout="responsive"
