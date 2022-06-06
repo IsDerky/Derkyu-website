@@ -117,7 +117,7 @@ const Home = () => (
           </Link>
         </Paragraph>
         <Link href="https://spotify-github-profile.vercel.app/api/view?uid=darkqwew&redirect=true">
-       <a>
+       <>
         <WorkImage
       src="https://spotify-github-profile.vercel.app/api/view?uid=darkqwew&cover_image=true&theme=novatorem&bar_color=202023&bar_color_cover=falsea"
       alt="Spotify"
@@ -125,7 +125,7 @@ const Home = () => (
       width="100"
       height="50"
     />
-    </a>
+    </>
     </Link>
       </Section>
 
