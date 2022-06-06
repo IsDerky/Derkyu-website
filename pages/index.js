@@ -119,6 +119,8 @@ const Home = () => (
       src="https://spotify-github-profile.vercel.app/api/view?uid=darkqwew&cover_image=false&theme=default&bar_color=ffffff&bar_color_cover=false"
       alt="Spotify"
       layout="responsive"
+      width="100px"
+      height="50px"
     />
         </Paragraph>
   
