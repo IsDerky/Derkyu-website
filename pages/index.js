@@ -116,7 +116,6 @@ const Home = () => (
             Streams
           </Link>
         </Paragraph>
-        <Link href="https://spotify-github-profile.vercel.app/api/view?uid=darkqwew&redirect=true">
        <>
         <SpotifyAPP
       src="https://spotify-github-profile.vercel.app/api/view?uid=darkqwew&cover_image=true&theme=novatorem&bar_color=202023&bar_color_cover=falsea"
@@ -126,7 +125,6 @@ const Home = () => (
       height="50"
     />
     </>
-    </Link>
       </Section>
 
       <Section delay={0.3}>
