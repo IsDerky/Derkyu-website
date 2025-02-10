@@ -128,13 +128,14 @@ const Home = () => (
           </Link>
         </Paragraph>
         <>
+          <a href="https://spotify-github-profile.kittinanx.com/api/view?uid=darkqwew&redirect=true">
           <SpotifyAPP
-            src="https://spotify-github-profile.kittinanx.com/api/view?uid=darkqwew&cover_image=true&theme=novatorem&show_offline=false&background_color=121212&interchange=true&bar_color=53b14f&bar_color_cover=true)](https://spotify-github-profile.kittinanx.com/api/view?uid=darkqwew&redirect=true)"
+            src="https://spotify-github-profile.kittinanx.com/api/view?uid=darkqwew&cover_image=true&theme=novatorem&show_offline=false&background_color=121212&interchange=true&bar_color=53b14f&bar_color_cover=true"
             alt="Spotify"
             layout="responsive"
             width="100"
             height="50"
-          />
+          /></a>
         </>
       </Section>
 
