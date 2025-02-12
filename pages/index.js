@@ -1,4 +1,4 @@
-import { Link, Container, Heading, Box, Button, List, ListItem, useColorModeValue, chakra } from '@chakra-ui/react'
+import { Link, Container, Heading, Box, Button, List, ListItem, useColorModeValue, chakra, border } from '@chakra-ui/react'
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
@@ -109,7 +109,7 @@ const Home = () => (
         <Heading as="h3" variant="section-title">
           I ♥
         </Heading>
-        <Paragraph>
+        <Paragraph style={{ paddingBottom:'2%'}}>
           Series, {' '}
           <Link href="https://open.spotify.com/user/darkqwew?si=d852d5781e4e4d86" target="_blank">
             Music
@@ -128,14 +128,22 @@ const Home = () => (
           </Link>
         </Paragraph>
         <>
+        <Container style={{ 
+        backgroundColor: useColorModeValue('#cbbbad', '#1a1b1e'),  
+        borderRadius: "10px", 
+        boxShadow: "0 10px 30px rgba(0, 0, 0, 0.5)",
+        padding: 0
+        }}>
           <a href="https://spotify-github-profile.kittinanx.com/api/view?uid=darkqwew&redirect=true">
           <SpotifyAPP
-            src="https://spotify-github-profile.kittinanx.com/api/view?uid=darkqwew&cover_image=true&theme=novatorem&show_offline=false&background_color=121212&interchange=true&bar_color=53b14f&bar_color_cover=true"
+            src="https://spotify-github-profile.kittinanx.com/api/view?uid=darkqwew&cover_image=true&theme=natemoo-re&show_offline=false&background_color=121212&interchange=true&bar_color=53b14f&bar_color_cover=true"
             alt="Spotify"
             layout="responsive"
             width="100"
             height="50"
+            
           /></a>
+          </Container>
         </>
       </Section>
 
