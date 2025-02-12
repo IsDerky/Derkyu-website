@@ -61,7 +61,7 @@ const Navbar = props => {
           <LinkItem href="/works" path={path}>
             Works
           </LinkItem>
-          <LinkItem href="mailto:contact@derkyu.lol" path={path}>
+          <LinkItem href="https://mail.google.com/mail/?view=cm&fs=1&to=contact@derkyu.lol&su=Hey%20Derkyu!" path={path}>
             Contact
           </LinkItem>
         </Stack>
@@ -84,7 +84,7 @@ const Navbar = props => {
                 <NextLink href="/works" passHref>
                   <MenuItem as={Link}>Works</MenuItem>
                 </NextLink>
-                <NextLink href="mailto:contact@derkyu.lol" passHref>
+                <NextLink href="https://mail.google.com/mail/?view=cm&fs=1&to=contact@derkyu.lol&su=Hey%20Derkyu!" passHref>
                   <MenuItem as={Link}>Contact</MenuItem>
                 </NextLink>
               </MenuList>
