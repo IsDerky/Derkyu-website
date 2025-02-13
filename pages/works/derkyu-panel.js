@@ -3,17 +3,9 @@ import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
-import ClickSpark from '../../components/ClickSpark';
 
 const Work = () => (
   <Layout title="Derkyu Panel">
-    <ClickSpark
-    sparkColor= {useColorModeValue('#1a1b1e', '#cbbbad')}
-    sparkSize={10}
-    sparkRadius={15}
-    sparkCount={8}
-    duration={400}
-    />
     <Container>
       <Title>
        Derkyu Panel <Badge>2025</Badge>
