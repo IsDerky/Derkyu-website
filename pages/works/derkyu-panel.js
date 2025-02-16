@@ -5,14 +5,13 @@ import Layout from '../../components/layouts/article'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 
 const Work = () => (
-  <Layout title="Derkyu Panel">
+  <Layout title="Derkyu Hosting">
     <Container>
       <Title>
-       Derkyu Panel <Badge>2025</Badge>
+       Derkyu Hosting <Badge>2025</Badge>
       </Title>
       <P> 
       Un hosting con un panel multifución con soporte para videojuegos y software.
-
       </P>
       <List ml={4} my={4}>
         <ListItem>
@@ -25,7 +24,7 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Link</Meta>
-          <Link href="https://panel.derkyu.lol" target="_blank">
+          <Link href="https://hosting.derkyu.lol" target="_blank">
             Page <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
