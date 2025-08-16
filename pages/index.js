@@ -8,6 +8,7 @@ import { FaTwitch, FaDiscord } from "react-icons/fa"
 import Image from 'next/image'
 import { SpotifyAPP } from '../components/work'
 import SplitText from '../components/SplitText'
+import { lazy } from 'react'
 
 const ProfileImage = chakra(Image, {
   shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
@@ -84,7 +85,7 @@ const Home = () => {
           <BioSection><BioYear>2021</BioYear>Entré en una FP de redes y sistemas para explorar otros campos de la informática.</BioSection>
           <BioSection>
             <BioYear>2025</BioYear>
-            Trabajando para <Link href="https://es.nttdata.com" target="_blank">NTTDATA</Link> y con un proyecto activo llamado {' '}
+            Actualmente trabajando y enfocado en un proyecto activo llamado {' '}
             <Link href="/works/derkyu-panel" target="_blank">Derkyu Panel</Link>.
           </BioSection>
         </Section>
@@ -103,7 +104,8 @@ const Home = () => {
               backgroundColor: spotifyBg,
               borderRadius: "10px",
               boxShadow: "0 10px 30px rgba(0, 0, 0, 0.5)",
-              padding: 0
+              padding: 0,
+              lazy: true
             }}>
               <a href="https://spotify-github-profile.kittinanx.com/api/view?uid=darkqwew&redirect=true">
                 <SpotifyAPP
