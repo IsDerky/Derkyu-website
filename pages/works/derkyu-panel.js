@@ -11,7 +11,7 @@ const Work = () => (
        Derkyu Hosting <Badge>2025</Badge>
       </Title>
       <P> 
-      Pagina web de hosting propio
+      Página web de hosting que ofrece una gran variedad de servicios, desarrollada con las siguientes tecnologías:
       </P>
       <List ml={4} my={4}>
         <ListItem>
