@@ -11,16 +11,16 @@ const Work = () => (
        Derkyu Hosting <Badge>2025</Badge>
       </Title>
       <P> 
-      Un hosting con un panel multifución con soporte para videojuegos y software.
+      Pagina web de hosting propio
       </P>
       <List ml={4} my={4}>
         <ListItem>
-          <Meta>Games</Meta>
-          <span>Minecraft, Fivem, Project Zomboid, etc</span>
+          <Meta>Lenguaje</Meta>
+          <span>Node.js</span>
         </ListItem>
         <ListItem>
-          <Meta>Software</Meta>
-          <span>Code-server, Nextcloud, Website hosting, Bot hosting etc</span>
+          <Meta>Framework</Meta>
+          <span>Vite, React, Tailwind</span>
         </ListItem>
         <ListItem>
           <Meta>Link</Meta>
